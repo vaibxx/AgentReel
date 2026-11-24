@@ -2,6 +2,10 @@
 
 AgentReel turns a brief and source documents into a narrated 30–60 second video. Each run saves the evidence, fact IDs, timed script, storyboard, subtitles, review decisions and technical QA results alongside the MP4.
 
+[Watch the 30-second rainbow demo](https://raw.githubusercontent.com/vaibxx/AgentReel/main/demo/rainbow.mp4) · [Read the timed captions](demo/rainbow.srt)
+
+The demo follows one ray through a circular droplet, then shows how light from different droplets reaches the observer. Its script and evidence came from the configured Gemini pipeline. After a provider outage, the final run reused those artifacts, corrected the citations, used the procedural optics storyboard and passed editorial review with Codex CLI. AgentReel rendered the narration, diagrams and captions locally and passed its technical QA checks.
+
 ## Reproduce the rainbow example
 
 Install Python 3.11 or a compatible later version and FFmpeg with ffprobe on PATH. On Windows:
