@@ -1,0 +1,18 @@
+id: SCIENCE
+topic: How rainbows form
+audience: school students
+format: video_9x16
+duration_s: 30
+tone: curious, simple, engaging
+language: English
+must_include:
+  - A ray of white sunlight enters one round water droplet.
+  - At the surface, red and blue light bend by slightly different amounts.
+  - Some light reflects inside the drop, then bends again on its way out.
+  - With the Sun behind you, light from many drops reaches your eyes as a bow.
+must_avoid:
+  - Unsupported statistics
+cta: Keep exploring science.
+brand: none
+mode: general
+visual_template: rainbow_optics

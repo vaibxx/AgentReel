@@ -1,0 +1,14 @@
+# Optional: local AI illustration stills (SD-Turbo + Depth-Anything) on an NVIDIA GPU.
+# Install after requirements.txt:
+#   pip install -r requirements-gpu.txt
+# then fetch weights once into ~/.cache/agentreel/models (outside the repo, about 2.7 GB):
+#   python scripts/setup_illustration.py
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0
+diffusers==0.41.0
+transformers==5.20.1
+accelerate==1.15.0
+safetensors==0.8.0
+ftfy==6.3.1
+sentencepiece==0.2.2
+huggingface_hub==1.33.0
